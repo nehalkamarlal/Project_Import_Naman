@@ -1,0 +1,67 @@
+.freshFizz{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+   }
+   .collapse{
+     margin-left:20px;
+   }
+.profile{
+    border-top: 1px solid grey;
+    border-bottom:1px solid grey;
+    padding:4px 2px ;
+    background-color: gray;
+    color: white;
+  }
+    .main{
+      margin: 20px 30px;
+      border-bottom: 1px solid grey;
+    }
+    .main img{
+      object-fit:cover;
+      margin-inline:150px;
+      margin-bottom: 20px;
+      border :1px solid dimgrey;
+      border-radius:5px;
+    }
+    .main h3{
+      font-size: 14px;
+      border-bottom: 1px solid grey;
+    }
+    .contains {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
+    .contains .left-side h2{
+      font-size: 20px;
+      color: dimgray;
+      font-weight: 900;
+    }
+    .contains .right-side{
+      width: 60%;
+      font-size: 13px;
+    }
+  .footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: grey;
+      border: 1px solid green;
+      margin-bottom: 10px;
+      width: 95%;
+      margin-inline:auto ;
+      padding: 15px 10px;
+  }
+  .footerss h2{
+      color: white;
+      font-size: 20px;
+  }
+  .footerss a{
+      text-decoration: none;
+      color: black;
+  }
+  .footerss li{
+      list-style: none;
+  }
